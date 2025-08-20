@@ -105,7 +105,7 @@ EXPOSE 5000
 
 # MLflow server command
 CMD ["mlflow", "server", \
-     "--backend-store-uri", "sqlite:///mlflow.db", \
-     "--default-artifact-root", "/home/mlflow/artifacts", \
-     "--host", "0.0.0.0", \
-     "--port", "5000"]
+    "--backend-store-uri", "sqlite:///mlflow.db", \
+    "--default-artifact-root", "/home/mlflow/artifacts", \
+    "--host", "0.0.0.0", \
+    "--port", "5000"]

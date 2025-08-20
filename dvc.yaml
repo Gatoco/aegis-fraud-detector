@@ -1,0 +1,104 @@
+# DVC Pipeline Configuration for Aegis Fraud Detection System
+# Data pipeline automation and experiment reproducibility
+
+stages:
+  # Data ingestion and validation
+  data_ingestion:
+    cmd: python src/data/make_dataset.py data/01_raw data/02_processed
+    deps:
+      - src/data/make_dataset.py
+      - data/01_raw
+    outs:
+      - data/02_processed/train_features.csv
+      - data/02_processed/test_features.csv
+      - data/02_processed/data_validation_report.json
+    params:
+      - data_processing.validation_threshold
+      - data_processing.missing_value_strategy
+    metrics:
+      - data/02_processed/data_quality_metrics.json:
+          cache: false
+
+  # Feature engineering
+  build_features:
+    cmd: python src/features/build_features.py data/02_processed data/03_features
+    deps:
+      - src/features/build_features.py
+      - data/02_processed/train_features.csv
+      - data/02_processed/test_features.csv
+    outs:
+      - data/03_features/train_engineered.csv
+      - data/03_features/test_engineered.csv
+      - data/03_features/feature_definitions.json
+    params:
+      - feature_engineering.temporal_windows
+      - feature_engineering.aggregation_functions
+      - feature_engineering.interaction_degree
+    metrics:
+      - data/03_features/feature_importance.json:
+          cache: false
+
+  # Model training - Baseline
+  train_baseline:
+    cmd: python src/models/train_baseline.py data/03_features models/baseline
+    deps:
+      - src/models/train_baseline.py
+      - data/03_features/train_engineered.csv
+    outs:
+      - models/baseline/logistic_regression.pkl
+      - models/baseline/model_metrics.json
+    params:
+      - baseline.model_type
+      - baseline.regularization
+      - baseline.class_weight
+    metrics:
+      - models/baseline/evaluation_metrics.json:
+          cache: false
+
+  # Model training - Advanced Ensemble
+  train_ensemble:
+    cmd: python src/models/train_ensemble.py data/03_features models/ensemble
+    deps:
+      - src/models/train_ensemble.py
+      - data/03_features/train_engineered.csv
+      - models/baseline/logistic_regression.pkl
+    outs:
+      - models/ensemble/xgboost_model.pkl
+      - models/ensemble/lightgbm_model.pkl
+      - models/ensemble/ensemble_model.pkl
+    params:
+      - ensemble.xgboost
+      - ensemble.lightgbm
+      - ensemble.stacking_meta_learner
+    metrics:
+      - models/ensemble/evaluation_metrics.json:
+          cache: false
+
+  # Model evaluation and comparison
+  evaluate_models:
+    cmd: python src/models/evaluate.py models/ data/03_features
+    deps:
+      - src/models/evaluate.py
+      - models/baseline/logistic_regression.pkl
+      - models/ensemble/ensemble_model.pkl
+      - data/03_features/test_engineered.csv
+    outs:
+      - reports/model_comparison.html
+      - reports/feature_importance_analysis.png
+      - reports/confusion_matrices.png
+    metrics:
+      - reports/final_evaluation_metrics.json:
+          cache: false
+
+  # Model interpretation and explainability
+  model_interpretation:
+    cmd: python src/models/interpret.py models/ensemble reports/interpretation
+    deps:
+      - src/models/interpret.py
+      - models/ensemble/ensemble_model.pkl
+      - data/03_features/test_engineered.csv
+    outs:
+      - reports/interpretation/shap_summary.png
+      - reports/interpretation/partial_dependence.png
+      - reports/interpretation/feature_interaction.png
+      - reports/interpretation/explainability_report.html

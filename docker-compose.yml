@@ -12,7 +12,7 @@ services:
       target: development
     container_name: aegis-fraud-detector-dev
     ports:
-      - "8888:8888"  # Jupyter Lab
+      - "8888:8888" # Jupyter Lab
     volumes:
       - .:/workspace
       - ./data:/workspace/data
@@ -36,7 +36,7 @@ services:
       target: mlflow
     container_name: aegis-mlflow-server
     ports:
-      - "5000:5000"  # MLflow UI
+      - "5000:5000" # MLflow UI
     volumes:
       - ./mlruns:/home/mlflow/mlruns
       - ./artifacts:/home/mlflow/artifacts
