@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/283938250316703294/66acdedfbc2c4e2895de3140ff0b9717/artifacts
+end_time: 1755797749680
+entry_point_name: ''
+experiment_id: '283938250316703294'
+lifecycle_stage: active
+run_id: 66acdedfbc2c4e2895de3140ff0b9717
+run_name: advanced_training_20250821_133520
+run_uuid: 66acdedfbc2c4e2895de3140ff0b9717
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755797721195
+status: 3
+tags: []
+user_id: Gat

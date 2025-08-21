@@ -1,0 +1,58 @@
+schema: '2.0'
+stages:
+  create_splits:
+    cmd: python scripts/create_train_test_splits.py
+    deps:
+    - path: data/03_features/fraud_dataset_engineered_v1.0.parquet
+      hash: md5
+      md5: 4e8d85998d8a5eb3538e8f6b820a0d9a
+      size: 1701552
+    params:
+      params.yaml:
+        random_state: 42
+        test_size: 0.2
+    outs:
+    - path: data/02_processed/fraud_splits_v1.0_metadata.yaml
+      hash: md5
+      md5: 560c5365088299f76970fe9e78073142
+      size: 581
+    - path: data/02_processed/fraud_test_v1.0.parquet
+      hash: md5
+      md5: 82162ab4e2f252b693b48604daeea5ad
+      size: 438836
+    - path: data/02_processed/fraud_train_v1.0.parquet
+      hash: md5
+      md5: 788b0dd417c1787061f90d3bd34e40e5
+      size: 1431271
+  feature_engineering:
+    cmd: python scripts/create_featured_dataset.py
+    deps:
+    - path: data/01_raw/train_identity.csv
+      hash: md5
+      md5: 8487db5001c8bad139f3318d5d3db416
+      size: 26529680
+    - path: data/01_raw/train_transaction.csv
+      hash: md5
+      md5: 58b4038d8715f5e11007b826bef00ce7
+      size: 683351067
+    - path: src/features/feature_engineering.py
+      hash: md5
+      md5: bd5c9b4ce74a16a5d6a1416fd04f1433
+      size: 21418
+    params:
+      params.yaml:
+        feature_selection_k: 150
+        sample_size: 50000
+    outs:
+    - path: data/03_features/fraud_dataset_engineered_v1.0.parquet
+      hash: md5
+      md5: 4e8d85998d8a5eb3538e8f6b820a0d9a
+      size: 1701552
+    - path: data/03_features/fraud_dataset_engineered_v1.0_metadata.yaml
+      hash: md5
+      md5: f95d9ace4ab4c3145df1c97e7c3774cc
+      size: 595
+    - path: models/feature_pipeline_v1.0.pkl
+      hash: md5
+      md5: 93d2f4f5a463adc559c86e0e16a1e6f8
+      size: 688883
