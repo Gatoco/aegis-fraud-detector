@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/c49c72e5d25348abb89f629bcecf1e3c/artifacts
+end_time: 1755804229254
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: c49c72e5d25348abb89f629bcecf1e3c
+run_name: nervous-whale-509
+run_uuid: c49c72e5d25348abb89f629bcecf1e3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804224077
+status: 3
+tags: []
+user_id: Gat

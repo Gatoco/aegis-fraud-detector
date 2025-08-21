@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/35ff2506cf7f435e8775a7f86d69aa05/artifacts
+end_time: 1755804663701
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 35ff2506cf7f435e8775a7f86d69aa05
+run_name: fortunate-goose-574
+run_uuid: 35ff2506cf7f435e8775a7f86d69aa05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804658611
+status: 3
+tags: []
+user_id: Gat

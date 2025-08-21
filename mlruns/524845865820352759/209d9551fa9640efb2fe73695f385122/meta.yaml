@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/209d9551fa9640efb2fe73695f385122/artifacts
+end_time: 1755804288470
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 209d9551fa9640efb2fe73695f385122
+run_name: awesome-mare-59
+run_uuid: 209d9551fa9640efb2fe73695f385122
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804283107
+status: 3
+tags: []
+user_id: Gat

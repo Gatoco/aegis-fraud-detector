@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/51aa3c4ae0c6450693b38a7cee9f4be2/artifacts
+end_time: 1755804121542
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 51aa3c4ae0c6450693b38a7cee9f4be2
+run_name: calm-dog-123
+run_uuid: 51aa3c4ae0c6450693b38a7cee9f4be2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804115933
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/758c00972cda40d8a3aa76fa3cf6413a/artifacts
+end_time: 1755804176162
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 758c00972cda40d8a3aa76fa3cf6413a
+run_name: nimble-tern-649
+run_uuid: 758c00972cda40d8a3aa76fa3cf6413a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804171113
+status: 3
+tags: []
+user_id: Gat

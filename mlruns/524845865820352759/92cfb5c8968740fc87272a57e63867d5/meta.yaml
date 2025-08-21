@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/92cfb5c8968740fc87272a57e63867d5/artifacts
+end_time: 1755804296131
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 92cfb5c8968740fc87272a57e63867d5
+run_name: lyrical-carp-443
+run_uuid: 92cfb5c8968740fc87272a57e63867d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804290801
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/524845865820352759/685f65250d68449ca525c25e042ab5ca/artifacts
+end_time: 1755804155783
+entry_point_name: ''
+experiment_id: '524845865820352759'
+lifecycle_stage: active
+run_id: 685f65250d68449ca525c25e042ab5ca
+run_name: puzzled-snipe-315
+run_uuid: 685f65250d68449ca525c25e042ab5ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755804150463
+status: 3
+tags: []
+user_id: Gat
