@@ -2,20 +2,32 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white)](https://scipy.org/)
 
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)](https://mlflow.org/)
 [![DVC](https://img.shields.io/badge/DVC-13ADC7?logo=dvc&logoColor=white)](https://dvc.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![PyTest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?logo=tensorflow&logoColor=white)](https://scikit-learn.org/)
-[![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-4CAF50?logo=databricks&logoColor=white)](https://feature-engine.readthedocs.io/)
-[![Class Imbalance](https://img.shields.io/badge/Imbalanced%20Learning-9C27B0?logo=scipy&logoColor=white)](https://imbalanced-learn.org/)
-[![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/)
+
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?logo=tree&logoColor=white)](https://scikit-learn.org/stable/modules/ensemble.html#forest)
+[![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-FF6B6B?logo=regression&logoColor=white)](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
+[![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-4CAF50?logo=engineering&logoColor=white)](https://feature-engine.readthedocs.io/)
+[![Cross Validation](https://img.shields.io/badge/Cross%20Validation-9C27B0?logo=validation&logoColor=white)](https://scikit-learn.org/stable/modules/cross_validation.html)
+
+[![IEEE CIS](https://img.shields.io/badge/Dataset-IEEE%20CIS-1976D2?logo=ieee&logoColor=white)](https://www.kaggle.com/c/ieee-fraud-detection)
+[![Fraud Detection](https://img.shields.io/badge/Fraud%20Detection-FF5722?logo=security&logoColor=white)](https://en.wikipedia.org/wiki/Fraud_detection)
+[![Class Imbalance](https://img.shields.io/badge/Class%20Imbalance-E91E63?logo=balance&logoColor=white)](https://imbalanced-learn.org/)
+[![Model Interpretability](https://img.shields.io/badge/Interpretability-795548?logo=explain&logoColor=white)](https://github.com/slundberg/shap)
 
 > **Enterprise-grade fraud detection system achieving 93% ROC-AUC and 73% precision through advanced feature engineering and ensemble machine learning.**
 
