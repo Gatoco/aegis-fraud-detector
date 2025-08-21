@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/492660640897750971/e042adf508084e2cb152e51a4f740431/artifacts
+end_time: 1755806783470
+entry_point_name: ''
+experiment_id: '492660640897750971'
+lifecycle_stage: active
+run_id: e042adf508084e2cb152e51a4f740431
+run_name: advanced_catboost
+run_uuid: e042adf508084e2cb152e51a4f740431
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755806776499
+status: 4
+tags: []
+user_id: Gat

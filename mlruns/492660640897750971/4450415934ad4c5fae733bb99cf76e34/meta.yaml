@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/492660640897750971/4450415934ad4c5fae733bb99cf76e34/artifacts
+end_time: 1755806830727
+entry_point_name: ''
+experiment_id: '492660640897750971'
+lifecycle_stage: active
+run_id: 4450415934ad4c5fae733bb99cf76e34
+run_name: advanced_random_forest
+run_uuid: 4450415934ad4c5fae733bb99cf76e34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755806823889
+status: 4
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/492660640897750971/cb606200514c44d6a24213bc1ada6eb7/artifacts
+end_time: 1755806565141
+entry_point_name: ''
+experiment_id: '492660640897750971'
+lifecycle_stage: active
+run_id: cb606200514c44d6a24213bc1ada6eb7
+run_name: advanced_logistic_regression
+run_uuid: cb606200514c44d6a24213bc1ada6eb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755806558108
+status: 4
+tags: []
+user_id: Gat
