@@ -43,11 +43,7 @@ services:
     networks:
       - aegis-network
     command: >
-      mlflow server
-      --host 0.0.0.0
-      --port 5000
-      --backend-store-uri file:///mlflow/mlruns
-      --default-artifact-root /mlflow/mlruns
+      mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri file:///mlflow/mlruns --default-artifact-root /mlflow/mlruns
 
 networks:
   aegis-network:
