@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/684807236305754829/99a303b0b04944bc9c387284aa0cdc2e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '684807236305754829'
+lifecycle_stage: active
+run_id: 99a303b0b04944bc9c387284aa0cdc2e
+run_name: baseline_logistic_20250820_202859
+run_uuid: 99a303b0b04944bc9c387284aa0cdc2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755736139931
+status: 1
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/684807236305754829/8b05f7a0c4124328a4a227dc2d305e62/artifacts
+end_time: 1755740456522
+entry_point_name: ''
+experiment_id: '684807236305754829'
+lifecycle_stage: active
+run_id: 8b05f7a0c4124328a4a227dc2d305e62
+run_name: righteous-bird-859
+run_uuid: 8b05f7a0c4124328a4a227dc2d305e62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755740444076
+status: 3
+tags: []
+user_id: Gat

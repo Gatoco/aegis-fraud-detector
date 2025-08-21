@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/684807236305754829/59082dff9d0d48e3b1d58343fd11817d/artifacts
+end_time: 1755740352777
+entry_point_name: ''
+experiment_id: '684807236305754829'
+lifecycle_stage: active
+run_id: 59082dff9d0d48e3b1d58343fd11817d
+run_name: bright-loon-897
+run_uuid: 59082dff9d0d48e3b1d58343fd11817d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755740340862
+status: 4
+tags: []
+user_id: Gat
