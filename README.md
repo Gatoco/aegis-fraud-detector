@@ -1,4 +1,4 @@
-# 🛡️ Aegis Fraud Detection System
+# Aegis Fraud Detection System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
@@ -14,9 +14,9 @@
 
 > **Enterprise-grade fraud detection system achieving 93% ROC-AUC and 73% precision through advanced ML and zero-cost MLOps practices.**
 
-## 🎯 **Key Achievements**
+## **Key Achievements**
 
-### 🏆 **State-of-the-Art Performance**
+### **State-of-the-Art Performance**
 | Model | Precision | Recall | F1-Score | ROC-AUC | Training Time |
 |-------|-----------|--------|----------|---------|---------------|
 | **Random Forest** | **73.08%** | **63.51%** | **67.97%** | **92.99%** | 89.2s |
@@ -25,40 +25,40 @@
 | **Baseline** | 10.78% | 69.72% | 18.68% | 81.64% | 9.6s |
 
 **Performance Improvements:**
-- 🚀 **264% improvement** in F1-Score (18.7% → 67.97%)
-- 🎯 **6.8x improvement** in precision (10.8% → 73.08%)
-- ⚡ **Sub-second inference** for real-time deployment
+- **264% improvement** in F1-Score (18.7% → 67.97%)
+- **6.8x improvement** in precision (10.8% → 73.08%)
+- **Sub-second inference** for real-time deployment
 
-### 💰 **Zero-Cost CI/CD Pipeline**
-- ✅ **Optimized GitHub Actions** with smart triggers
-- ⚡ **60% faster builds** through aggressive caching
-- 🛠️ **Local validation tools** for development
-- 💰 **$0.00/month cost** through optimization
+### **Zero-Cost CI/CD Pipeline**
+- **Optimized GitHub Actions** with smart triggers
+- **60% faster builds** through aggressive caching
+- **Local validation tools** for development
+- **$0.00/month cost** through optimization
 
 ---
 
-## 🏗️ **System Architecture**
+## **System Architecture**
 
 ```mermaid
 graph TD
-    subgraph "📊 Data Layer"
+    subgraph "Data Layer"
         A[Raw Data] --> B[Processed]
         B --> C[Features]
     end
     
-    subgraph "🧠 ML Layer"
+    subgraph "ML Layer"
         C --> D[Training]
         D --> E[Optimization]
         E --> F[Evaluation]
     end
     
-    subgraph "🚀 Serving"
+    subgraph "Serving"
         F --> G[Model Registry]
         G --> H[FastAPI]
         H --> I[Predictions]
     end
     
-    subgraph "🔧 MLOps"
+    subgraph "MLOps"
         J[DVC] --> A
         K[MLflow] --> D
         L[Docker] --> H
@@ -67,14 +67,14 @@ graph TD
 ```
 
 **Technology Stack:**
-- 🧠 **ML**: Scikit-learn, LightGBM, XGBoost, SHAP
-- 📊 **MLOps**: MLflow, DVC, Optuna
-- 🚀 **Production**: FastAPI, Docker, Pydantic
-- 🔧 **Quality**: Pytest, Black, Flake8, GitHub Actions
+- **ML**: Scikit-learn, LightGBM, XGBoost, SHAP
+- **MLOps**: MLflow, DVC, Optuna
+- **Production**: FastAPI, Docker, Pydantic
+- **Quality**: Pytest, Black, Flake8, GitHub Actions
 
 ---
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### Prerequisites
 - Python 3.12+, Docker, Git, 8GB+ RAM
@@ -117,21 +117,21 @@ curl -X POST "http://localhost:8000/v1/predict" \
 
 ---
 
-## 📊 **Dataset & Features**
+## **Dataset & Features**
 
 **Dataset:** IEEE-CIS Fraud Detection (590K transactions, 2.84% fraud rate)
 
 **Advanced Feature Engineering:**
-- 🕒 **Temporal Features (24)**: Hour/day patterns, velocity metrics
-- 📈 **Aggregation Features (48)**: User statistics, rolling windows
-- 🔗 **Interaction Features (36)**: Cross-feature combinations
-- 🏷️ **Categorical Features (42)**: One-hot encoded categories
+- **Temporal Features (24)**: Hour/day patterns, velocity metrics
+- **Aggregation Features (48)**: User statistics, rolling windows
+- **Interaction Features (36)**: Cross-feature combinations
+- **Categorical Features (42)**: One-hot encoded categories
 
 **Total: 434 original → 150+ engineered features**
 
 ---
 
-## 🔌 **API Usage**
+## **API Usage**
 
 ### Endpoints
 - `GET /health` - Service health check
@@ -158,7 +158,7 @@ print(f"Recommendation: {result['recommendation']}")
 
 ---
 
-## 🛠️ **Development**
+## **Development**
 
 ### Local Setup
 ```bash
@@ -188,7 +188,7 @@ make test          # Full test suite
 
 ---
 
-## 📈 **MLOps Pipeline**
+## **MLOps Pipeline**
 
 ### Experiment Tracking
 - **MLflow**: Complete experiment management
@@ -213,7 +213,7 @@ make docker-run
 
 ---
 
-## 🚢 **Production Deployment**
+## **Production Deployment**
 
 ### Docker
 ```dockerfile
@@ -227,25 +227,25 @@ CMD ["python", "main.py"]
 ```
 
 ### Cloud Platforms
-- ☁️ **AWS ECS/Fargate**
-- 🌐 **Google Cloud Run**
-- 🔷 **Azure Container Instances**
-- 🐳 **Kubernetes**
+- **AWS ECS/Fargate**
+- **Google Cloud Run**
+- **Azure Container Instances**
+- **Kubernetes**
 
 ### Security & Compliance
-- 🔒 Non-root containers
-- 🛡️ Secret management
-- 📋 GDPR/PCI DSS compliance
-- 🔍 Audit trails
+- Non-root containers
+- Secret management
+- GDPR/PCI DSS compliance
+- Audit trails
 
 ---
 
-## 📚 **Documentation**
+## **Documentation**
 
-- **[🔧 Sprint 4.1 CI](docs/SPRINT_4_1_CI_IMPLEMENTATION.md)** - Zero-cost CI setup
-- **[🏗️ Architecture](docs/AEGIS_PROJECT_SUMMARY.md)** - System design
-- **[🔌 API Reference](api_service/README.md)** - REST API docs
-- **[🧪 Testing Guide](tests/)** - Testing strategies
+- **[Sprint 4.1 CI](docs/SPRINT_4_1_CI_IMPLEMENTATION.md)** - Zero-cost CI setup
+- **[Architecture](docs/AEGIS_PROJECT_SUMMARY.md)** - System design
+- **[API Reference](api_service/README.md)** - REST API docs
+- **[Testing Guide](tests/)** - Testing strategies
 
 **Interactive Documentation:**
 - Swagger UI: `http://localhost:8000/docs`
@@ -253,7 +253,7 @@ CMD ["python", "main.py"]
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature/amazing-feature`
@@ -270,24 +270,24 @@ CMD ["python", "main.py"]
 
 ---
 
-## 🏆 **Recognition**
+## **Recognition**
 
-- 🥇 **Best MLOps Implementation** - Innovation Awards 2025
-- 🏅 **Zero-Cost CI/CD Excellence** - DevOps Community
-- ⭐ **Production Readiness Score: 95/100**
+- **Best MLOps Implementation** - Innovation Awards 2025
+- **Zero-Cost CI/CD Excellence** - DevOps Community
+- **Production Readiness Score: 95/100**
 
 ---
 
-## 📊 **Project Stats**
+## **Project Stats**
 
 ```
-📈 Performance:
+Performance:
 ├── Model Accuracy: 92.99% ROC-AUC
 ├── API Latency: <100ms (p99)
 ├── CI/CD Speed: 3-5 minutes
 └── Cost: $0.00/month
 
-🏗️ Architecture:
+Architecture:
 ├── Lines of Code: 15,000+
 ├── Test Coverage: 85%+
 ├── Documentation: 100% API
@@ -296,19 +296,19 @@ CMD ["python", "main.py"]
 
 ---
 
-## 📄 **License**
+## **License**
 
 MIT License - Free for commercial use. See [LICENSE](LICENSE) for details.
 
 **Commercial friendly:**
-- ✅ Production deployment
-- ✅ Modification & distribution
-- ✅ Integration into proprietary systems
-- ✅ Resale as part of solutions
+- Production deployment
+- Modification & distribution
+- Integration into proprietary systems
+- Resale as part of solutions
 
 ---
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - **IEEE-CIS** for the fraud detection dataset
 - **Open Source Community** for amazing tools
@@ -317,24 +317,19 @@ MIT License - Free for commercial use. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 📞 **Contact & Support**
+## **Contact**
 
-- 📧 **Issues**: [GitHub Issues](https://github.com/Gatoco/aegis-fraud-detector/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Gatoco/aegis-fraud-detector/discussions)
-- 📖 **Wiki**: [Project Wiki](https://github.com/Gatoco/aegis-fraud-detector/wiki)
-- 🚀 **Releases**: [Latest Releases](https://github.com/Gatoco/aegis-fraud-detector/releases)
-
-**Enterprise Support:** enterprise@aegis-fraud-detector.com
+**Email:** gatoco.dev@gmail.com
 
 ---
 
 <div align="center">
 
-**⭐ If this project helped you, please give it a star! ⭐**
+**If this project helped you, please give it a star!**
 
 [![GitHub stars](https://img.shields.io/github/stars/Gatoco/aegis-fraud-detector?style=social)](https://github.com/Gatoco/aegis-fraud-detector/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gatoco/aegis-fraud-detector?style=social)](https://github.com/Gatoco/aegis-fraud-detector/network/members)
 
-**Built with ❤️ for the ML and Open Source communities**
+**Built with care for the ML and Open Source communities**
 
 </div>
