@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/d9bd745529d3491fa99b5729a66b31ac/artifacts
+end_time: 1755809124726
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: d9bd745529d3491fa99b5729a66b31ac
+run_name: unleashed-whale-307
+run_uuid: d9bd745529d3491fa99b5729a66b31ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809120018
+status: 3
+tags: []
+user_id: Gat

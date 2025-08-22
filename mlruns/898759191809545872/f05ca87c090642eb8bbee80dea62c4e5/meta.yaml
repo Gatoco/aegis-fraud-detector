@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/f05ca87c090642eb8bbee80dea62c4e5/artifacts
+end_time: 1755808718659
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: f05ca87c090642eb8bbee80dea62c4e5
+run_name: skillful-jay-933
+run_uuid: f05ca87c090642eb8bbee80dea62c4e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808713421
+status: 3
+tags: []
+user_id: Gat

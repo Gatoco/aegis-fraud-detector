@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/140515bd1a2d4cf1b3790e2e99ddbb20/artifacts
+end_time: 1755809849666
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 140515bd1a2d4cf1b3790e2e99ddbb20
+run_name: omniscient-elk-783
+run_uuid: 140515bd1a2d4cf1b3790e2e99ddbb20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809844099
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/fed0283994d44cb9b718204503f26278/artifacts
+end_time: 1755809029443
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: fed0283994d44cb9b718204503f26278
+run_name: hilarious-fox-497
+run_uuid: fed0283994d44cb9b718204503f26278
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809024690
+status: 3
+tags: []
+user_id: Gat

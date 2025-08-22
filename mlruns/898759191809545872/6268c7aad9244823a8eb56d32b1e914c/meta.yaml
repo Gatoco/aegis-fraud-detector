@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/6268c7aad9244823a8eb56d32b1e914c/artifacts
+end_time: 1755809350965
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 6268c7aad9244823a8eb56d32b1e914c
+run_name: skittish-croc-279
+run_uuid: 6268c7aad9244823a8eb56d32b1e914c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809346184
+status: 3
+tags: []
+user_id: Gat

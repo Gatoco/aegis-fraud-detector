@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/9b7c697087694cf281927b1f35c066b8/artifacts
+end_time: 1755809103656
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 9b7c697087694cf281927b1f35c066b8
+run_name: polite-kite-763
+run_uuid: 9b7c697087694cf281927b1f35c066b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809098771
+status: 3
+tags: []
+user_id: Gat

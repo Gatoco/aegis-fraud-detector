@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/a5c115569e7b4abd9fad220e1a2cbefc/artifacts
+end_time: 1755808893289
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: a5c115569e7b4abd9fad220e1a2cbefc
+run_name: marvelous-mink-664
+run_uuid: a5c115569e7b4abd9fad220e1a2cbefc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808887979
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/48f50278d3de41a0961e2be1b2e0a0e7/artifacts
+end_time: 1755808543921
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 48f50278d3de41a0961e2be1b2e0a0e7
+run_name: ambitious-quail-791
+run_uuid: 48f50278d3de41a0961e2be1b2e0a0e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808538929
+status: 3
+tags: []
+user_id: Gat

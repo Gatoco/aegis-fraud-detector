@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/d964fa1de5204b55b03cd7fdbb0afe01/artifacts
+end_time: 1755808992609
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: d964fa1de5204b55b03cd7fdbb0afe01
+run_name: thoughtful-crab-732
+run_uuid: d964fa1de5204b55b03cd7fdbb0afe01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808987827
+status: 3
+tags: []
+user_id: Gat

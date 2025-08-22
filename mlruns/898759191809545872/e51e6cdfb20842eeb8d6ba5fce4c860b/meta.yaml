@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/e51e6cdfb20842eeb8d6ba5fce4c860b/artifacts
+end_time: 1755809294969
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: e51e6cdfb20842eeb8d6ba5fce4c860b
+run_name: shivering-steed-4
+run_uuid: e51e6cdfb20842eeb8d6ba5fce4c860b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809290230
+status: 3
+tags: []
+user_id: Gat

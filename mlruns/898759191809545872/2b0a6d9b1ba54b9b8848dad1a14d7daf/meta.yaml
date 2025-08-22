@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/2b0a6d9b1ba54b9b8848dad1a14d7daf/artifacts
+end_time: 1755808666527
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 2b0a6d9b1ba54b9b8848dad1a14d7daf
+run_name: luxuriant-gnat-905
+run_uuid: 2b0a6d9b1ba54b9b8848dad1a14d7daf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808661035
+status: 3
+tags: []
+user_id: Gat

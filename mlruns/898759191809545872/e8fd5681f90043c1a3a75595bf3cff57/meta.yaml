@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/e8fd5681f90043c1a3a75595bf3cff57/artifacts
+end_time: 1755809893113
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: e8fd5681f90043c1a3a75595bf3cff57
+run_name: hyperopt_session
+run_uuid: e8fd5681f90043c1a3a75595bf3cff57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808477832
+status: 3
+tags: []
+user_id: Gat

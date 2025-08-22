@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/0428e079985b44f29ce77f1e7f0a1714/artifacts
+end_time: 1755809800064
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 0428e079985b44f29ce77f1e7f0a1714
+run_name: bemused-ray-46
+run_uuid: 0428e079985b44f29ce77f1e7f0a1714
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809795231
+status: 3
+tags: []
+user_id: Gat

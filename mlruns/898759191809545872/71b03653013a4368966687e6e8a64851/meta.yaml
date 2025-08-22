@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/71b03653013a4368966687e6e8a64851/artifacts
+end_time: 1755809574806
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 71b03653013a4368966687e6e8a64851
+run_name: gentle-elk-100
+run_uuid: 71b03653013a4368966687e6e8a64851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809569929
+status: 3
+tags: []
+user_id: Gat

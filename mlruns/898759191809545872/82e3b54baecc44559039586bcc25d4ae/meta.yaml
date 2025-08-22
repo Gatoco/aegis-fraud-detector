@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/82e3b54baecc44559039586bcc25d4ae/artifacts
+end_time: 1755809831242
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 82e3b54baecc44559039586bcc25d4ae
+run_name: learned-turtle-367
+run_uuid: 82e3b54baecc44559039586bcc25d4ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809826524
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/6d741648f785425899b83b80b901a478/artifacts
+end_time: 1755809891736
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 6d741648f785425899b83b80b901a478
+run_name: placid-sloth-591
+run_uuid: 6d741648f785425899b83b80b901a478
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809886397
+status: 3
+tags: []
+user_id: Gat

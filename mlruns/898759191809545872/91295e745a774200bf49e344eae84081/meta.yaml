@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/91295e745a774200bf49e344eae84081/artifacts
+end_time: 1755809491456
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 91295e745a774200bf49e344eae84081
+run_name: dashing-bear-591
+run_uuid: 91295e745a774200bf49e344eae84081
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809486560
+status: 3
+tags: []
+user_id: Gat

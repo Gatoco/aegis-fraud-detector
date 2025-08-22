@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/b323f3b13ba94800a25db73f740f4904/artifacts
+end_time: 1755808810869
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: b323f3b13ba94800a25db73f740f4904
+run_name: resilient-fawn-834
+run_uuid: b323f3b13ba94800a25db73f740f4904
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808805780
+status: 3
+tags: []
+user_id: Gat

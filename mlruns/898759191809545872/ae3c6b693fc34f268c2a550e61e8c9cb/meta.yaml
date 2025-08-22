@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/ae3c6b693fc34f268c2a550e61e8c9cb/artifacts
+end_time: 1755809870842
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: ae3c6b693fc34f268c2a550e61e8c9cb
+run_name: respected-goose-669
+run_uuid: ae3c6b693fc34f268c2a550e61e8c9cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809865944
+status: 3
+tags: []
+user_id: Gat

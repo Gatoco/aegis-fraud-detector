@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/7c8732755f5b4f839642f7db39a534d0/artifacts
+end_time: 1755808632866
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 7c8732755f5b4f839642f7db39a534d0
+run_name: capable-chimp-318
+run_uuid: 7c8732755f5b4f839642f7db39a534d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808627559
+status: 3
+tags: []
+user_id: Gat

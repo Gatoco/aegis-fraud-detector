@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/0a06997f4bb04603bb83f941f32f5c05/artifacts
+end_time: 1755809783966
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 0a06997f4bb04603bb83f941f32f5c05
+run_name: rebellious-eel-294
+run_uuid: 0a06997f4bb04603bb83f941f32f5c05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809779293
+status: 3
+tags: []
+user_id: Gat

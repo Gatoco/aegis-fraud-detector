@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/6f430f345bc84051a9a27f44c360cc40/artifacts
+end_time: 1755809554442
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 6f430f345bc84051a9a27f44c360cc40
+run_name: vaunted-crab-285
+run_uuid: 6f430f345bc84051a9a27f44c360cc40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809549638
+status: 3
+tags: []
+user_id: Gat

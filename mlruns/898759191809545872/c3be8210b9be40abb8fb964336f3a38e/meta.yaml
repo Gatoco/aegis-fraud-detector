@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/c3be8210b9be40abb8fb964336f3a38e/artifacts
+end_time: 1755808947126
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: c3be8210b9be40abb8fb964336f3a38e
+run_name: monumental-gull-452
+run_uuid: c3be8210b9be40abb8fb964336f3a38e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808942307
+status: 3
+tags: []
+user_id: Gat

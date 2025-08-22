@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/3632f1fb6b08474b92c0f968cb93548b/artifacts
+end_time: 1755809084283
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 3632f1fb6b08474b92c0f968cb93548b
+run_name: loud-zebra-106
+run_uuid: 3632f1fb6b08474b92c0f968cb93548b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809079591
+status: 3
+tags: []
+user_id: Gat

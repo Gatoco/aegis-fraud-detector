@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/09923198edad48debf00b9b1e396fbae/artifacts
+end_time: 1755808876635
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 09923198edad48debf00b9b1e396fbae
+run_name: lyrical-ant-621
+run_uuid: 09923198edad48debf00b9b1e396fbae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808871584
+status: 3
+tags: []
+user_id: Gat

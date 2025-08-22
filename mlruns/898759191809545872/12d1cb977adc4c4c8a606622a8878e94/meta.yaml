@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/12d1cb977adc4c4c8a606622a8878e94/artifacts
+end_time: 1755809391112
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 12d1cb977adc4c4c8a606622a8878e94
+run_name: traveling-fox-168
+run_uuid: 12d1cb977adc4c4c8a606622a8878e94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809386242
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/2ee0d827144f430ca7f82b999d7e6e72/artifacts
+end_time: 1755809629554
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 2ee0d827144f430ca7f82b999d7e6e72
+run_name: gregarious-worm-203
+run_uuid: 2ee0d827144f430ca7f82b999d7e6e72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809624754
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/de47c5d0d10c4253ae1ed3100d051518/artifacts
+end_time: 1755809592967
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: de47c5d0d10c4253ae1ed3100d051518
+run_name: unleashed-fish-369
+run_uuid: de47c5d0d10c4253ae1ed3100d051518
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809588082
+status: 3
+tags: []
+user_id: Gat

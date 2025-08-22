@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/a02a80b6a8484bed8de02d5cae473fd7/artifacts
+end_time: 1755808574387
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: a02a80b6a8484bed8de02d5cae473fd7
+run_name: upbeat-calf-606
+run_uuid: a02a80b6a8484bed8de02d5cae473fd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808569090
+status: 3
+tags: []
+user_id: Gat

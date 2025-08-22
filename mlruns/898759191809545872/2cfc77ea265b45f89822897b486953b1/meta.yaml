@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/2cfc77ea265b45f89822897b486953b1/artifacts
+end_time: 1755809474338
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 2cfc77ea265b45f89822897b486953b1
+run_name: stately-ram-145
+run_uuid: 2cfc77ea265b45f89822897b486953b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809469427
+status: 3
+tags: []
+user_id: Gat

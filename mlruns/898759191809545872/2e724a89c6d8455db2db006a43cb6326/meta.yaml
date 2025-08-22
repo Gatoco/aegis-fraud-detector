@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/2e724a89c6d8455db2db006a43cb6326/artifacts
+end_time: 1755809735649
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 2e724a89c6d8455db2db006a43cb6326
+run_name: youthful-whale-65
+run_uuid: 2e724a89c6d8455db2db006a43cb6326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809730777
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/a0e178dcfc474246848562ae72b6ccb6/artifacts
+end_time: 1755809423456
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: a0e178dcfc474246848562ae72b6ccb6
+run_name: classy-bat-723
+run_uuid: a0e178dcfc474246848562ae72b6ccb6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809418768
+status: 3
+tags: []
+user_id: Gat

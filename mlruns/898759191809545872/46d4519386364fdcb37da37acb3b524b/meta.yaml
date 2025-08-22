@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/46d4519386364fdcb37da37acb3b524b/artifacts
+end_time: 1755809257748
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 46d4519386364fdcb37da37acb3b524b
+run_name: stately-stag-836
+run_uuid: 46d4519386364fdcb37da37acb3b524b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809252914
+status: 3
+tags: []
+user_id: Gat

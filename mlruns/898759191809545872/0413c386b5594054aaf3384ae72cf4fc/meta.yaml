@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/0413c386b5594054aaf3384ae72cf4fc/artifacts
+end_time: 1755809540119
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 0413c386b5594054aaf3384ae72cf4fc
+run_name: shivering-jay-303
+run_uuid: 0413c386b5594054aaf3384ae72cf4fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809534866
+status: 3
+tags: []
+user_id: Gat

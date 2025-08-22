@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/13b9af1f61234c5a83bccbba94372d32/artifacts
+end_time: 1755809066668
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 13b9af1f61234c5a83bccbba94372d32
+run_name: resilient-boar-423
+run_uuid: 13b9af1f61234c5a83bccbba94372d32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809061786
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/eea3187bc46a4c46837bf6ce30f60892/artifacts
+end_time: 1755809403398
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: eea3187bc46a4c46837bf6ce30f60892
+run_name: nebulous-sheep-471
+run_uuid: eea3187bc46a4c46837bf6ce30f60892
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809398615
+status: 3
+tags: []
+user_id: Gat

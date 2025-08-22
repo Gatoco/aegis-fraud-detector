@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/fcf3668a2fdb4b3b8f9b83b89b2b75cc/artifacts
+end_time: 1755809161319
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: fcf3668a2fdb4b3b8f9b83b89b2b75cc
+run_name: sassy-shoat-86
+run_uuid: fcf3668a2fdb4b3b8f9b83b89b2b75cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809156518
+status: 3
+tags: []
+user_id: Gat

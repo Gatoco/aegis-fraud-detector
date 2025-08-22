@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/61ad39d86cac4210af32da4d01deaceb/artifacts
+end_time: 1755808642106
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 61ad39d86cac4210af32da4d01deaceb
+run_name: welcoming-shark-991
+run_uuid: 61ad39d86cac4210af32da4d01deaceb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808637375
+status: 3
+tags: []
+user_id: Gat

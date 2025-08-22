@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/c9b46620266e464b87d09367e8ccd3eb/artifacts
+end_time: 1755808514420
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: c9b46620266e464b87d09367e8ccd3eb
+run_name: nervous-snipe-833
+run_uuid: c9b46620266e464b87d09367e8ccd3eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808509321
+status: 3
+tags: []
+user_id: Gat

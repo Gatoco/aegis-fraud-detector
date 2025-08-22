@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/e24171fba0c74fbe9660ddae5c7b876d/artifacts
+end_time: 1755809180837
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: e24171fba0c74fbe9660ddae5c7b876d
+run_name: defiant-whale-174
+run_uuid: e24171fba0c74fbe9660ddae5c7b876d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809176019
+status: 3
+tags: []
+user_id: Gat

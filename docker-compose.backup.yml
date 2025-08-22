@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Main development environment
+  aegis-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: aegis-fraud-detector-dev
+    ports:
+      - "8888:8888"
+      - "8000:8000"
+    volumes:
+      - .:/workspace
+      - ./data:/workspace/data
+      - ./models:/workspace/models
+      - ./notebooks:/workspace/notebooks
+      - ./src:/workspace/src
+      - ./tests:/workspace/tests
+      - ./mlruns:/workspace/mlruns
+      - ./artifacts:/workspace/artifacts
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=aegis-dev-token
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - PYTHONPATH=/workspace
+    networks:
+      - aegis-network
+    depends_on:
+      - mlflow
+    stdin_open: true
+    tty: true
+
+  # MLflow tracking server
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.16.2
+    container_name: aegis-mlflow-server
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    networks:
+      - aegis-network
+    command: >
+      mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri file:///mlflow/mlruns --default-artifact-root /mlflow/mlruns
+
+networks:
+  aegis-network:
+    driver: bridge
+
+volumes:
+  mlflow-artifacts:
+  mlflow-db:

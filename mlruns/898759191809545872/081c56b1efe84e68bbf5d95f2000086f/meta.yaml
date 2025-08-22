@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/081c56b1efe84e68bbf5d95f2000086f/artifacts
+end_time: 1755809508302
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 081c56b1efe84e68bbf5d95f2000086f
+run_name: puzzled-fowl-478
+run_uuid: 081c56b1efe84e68bbf5d95f2000086f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809503553
+status: 3
+tags: []
+user_id: Gat

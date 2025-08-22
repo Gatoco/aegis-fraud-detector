@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/06adefb2a35842efb21705d67cc5c0c5/artifacts
+end_time: 1755808765628
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 06adefb2a35842efb21705d67cc5c0c5
+run_name: adaptable-lamb-809
+run_uuid: 06adefb2a35842efb21705d67cc5c0c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808760733
+status: 3
+tags: []
+user_id: Gat

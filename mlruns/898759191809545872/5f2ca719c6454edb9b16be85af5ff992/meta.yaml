@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/5f2ca719c6454edb9b16be85af5ff992/artifacts
+end_time: 1755808602250
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 5f2ca719c6454edb9b16be85af5ff992
+run_name: carefree-penguin-421
+run_uuid: 5f2ca719c6454edb9b16be85af5ff992
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808596565
+status: 3
+tags: []
+user_id: Gat

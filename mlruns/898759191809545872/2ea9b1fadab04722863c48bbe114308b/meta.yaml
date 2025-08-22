@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/2ea9b1fadab04722863c48bbe114308b/artifacts
+end_time: 1755809043417
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 2ea9b1fadab04722863c48bbe114308b
+run_name: adaptable-ox-680
+run_uuid: 2ea9b1fadab04722863c48bbe114308b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809038638
+status: 3
+tags: []
+user_id: Gat

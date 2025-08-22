@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/27ea9b010bce472b8599d802525b5cea/artifacts
+end_time: 1755809195225
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 27ea9b010bce472b8599d802525b5cea
+run_name: shivering-mule-634
+run_uuid: 27ea9b010bce472b8599d802525b5cea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809190414
+status: 3
+tags: []
+user_id: Gat

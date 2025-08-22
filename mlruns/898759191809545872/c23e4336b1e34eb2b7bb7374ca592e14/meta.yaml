@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/c23e4336b1e34eb2b7bb7374ca592e14/artifacts
+end_time: 1755808742270
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: c23e4336b1e34eb2b7bb7374ca592e14
+run_name: redolent-pig-721
+run_uuid: c23e4336b1e34eb2b7bb7374ca592e14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808737087
+status: 3
+tags: []
+user_id: Gat

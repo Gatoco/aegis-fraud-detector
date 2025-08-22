@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # Aegis Fraud Detection API Service (Sprint 3.2)
+  aegis-api:
+    build:
+      context: ..
+      dockerfile: api_service/Dockerfile.api
+    container_name: aegis-fraud-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount model artifacts for real-time access
+      - ../docs/sprints/optimization_results:/app/optimization_results:ro
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+      - API_ENV=production
+      - MODEL_PATH=/app/optimization_results/best_lightgbm_model_20250821_165934.pkl
+    networks:
+      - aegis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+
+networks:
+  aegis-network:
+    driver: bridge

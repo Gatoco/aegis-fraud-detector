@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/d510a676bed0458b80d80d65acfcd60a/artifacts
+end_time: 1755808617590
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: d510a676bed0458b80d80d65acfcd60a
+run_name: efficient-crab-467
+run_uuid: d510a676bed0458b80d80d65acfcd60a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808612626
+status: 3
+tags: []
+user_id: Gat

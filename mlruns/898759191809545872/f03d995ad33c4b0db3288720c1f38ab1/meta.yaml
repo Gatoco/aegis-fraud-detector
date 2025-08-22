@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/f03d995ad33c4b0db3288720c1f38ab1/artifacts
+end_time: 1755809719091
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: f03d995ad33c4b0db3288720c1f38ab1
+run_name: kindly-grub-802
+run_uuid: f03d995ad33c4b0db3288720c1f38ab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809713998
+status: 3
+tags: []
+user_id: Gat

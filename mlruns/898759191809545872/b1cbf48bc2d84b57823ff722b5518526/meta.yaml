@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/b1cbf48bc2d84b57823ff722b5518526/artifacts
+end_time: 1755809749622
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: b1cbf48bc2d84b57823ff722b5518526
+run_name: gentle-dove-808
+run_uuid: b1cbf48bc2d84b57823ff722b5518526
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809744871
+status: 3
+tags: []
+user_id: Gat

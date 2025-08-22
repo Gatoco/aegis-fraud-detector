@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/4596e42e15c8432cb10a59a7a27fe37d/artifacts
+end_time: 1755809014792
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 4596e42e15c8432cb10a59a7a27fe37d
+run_name: flawless-midge-245
+run_uuid: 4596e42e15c8432cb10a59a7a27fe37d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809009830
+status: 3
+tags: []
+user_id: Gat

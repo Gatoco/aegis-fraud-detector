@@ -1,0 +1,6 @@
+artifact_location: /mlflow/mlruns/898759191809545872
+creation_time: 1755808452778
+experiment_id: '898759191809545872'
+last_update_time: 1755808452778
+lifecycle_stage: active
+name: fraud-detection-hyperopt-sprint-2-4

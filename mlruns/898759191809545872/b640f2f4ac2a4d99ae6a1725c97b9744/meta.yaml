@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/b640f2f4ac2a4d99ae6a1725c97b9744/artifacts
+end_time: 1755809145580
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: b640f2f4ac2a4d99ae6a1725c97b9744
+run_name: ambitious-lamb-242
+run_uuid: b640f2f4ac2a4d99ae6a1725c97b9744
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809140864
+status: 3
+tags: []
+user_id: Gat

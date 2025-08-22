@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/423c4b5ca5ee442dbe820d1f7f96990b/artifacts
+end_time: 1755809455406
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 423c4b5ca5ee442dbe820d1f7f96990b
+run_name: welcoming-slug-971
+run_uuid: 423c4b5ca5ee442dbe820d1f7f96990b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755809450704
+status: 3
+tags: []
+user_id: Gat

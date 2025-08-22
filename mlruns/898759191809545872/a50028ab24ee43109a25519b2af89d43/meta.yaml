@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/a50028ab24ee43109a25519b2af89d43/artifacts
+end_time: 1755808844746
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: a50028ab24ee43109a25519b2af89d43
+run_name: abrasive-conch-798
+run_uuid: a50028ab24ee43109a25519b2af89d43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808839420
+status: 3
+tags: []
+user_id: Gat

@@ -1,0 +1,15 @@
+artifact_uri: /mlflow/mlruns/898759191809545872/3ba1f1e217384e0ea8c17c8fe45c7779/artifacts
+end_time: 1755808697260
+entry_point_name: ''
+experiment_id: '898759191809545872'
+lifecycle_stage: active
+run_id: 3ba1f1e217384e0ea8c17c8fe45c7779
+run_name: adventurous-ape-408
+run_uuid: 3ba1f1e217384e0ea8c17c8fe45c7779
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755808692175
+status: 3
+tags: []
+user_id: Gat

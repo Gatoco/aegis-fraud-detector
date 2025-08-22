@@ -47,7 +47,7 @@ install-deps:
 
 install-dev: install-deps
 	@echo "Installing development dependencies..."
-	$(PIP) install black flake8 pytest pytest-cov pre-commit
+	$(PIP) install black flake8 isort pytest pytest-cov pre-commit
 	$(PIP) install jupyter jupyterlab
 	$(PIP) install dvc mlflow
 	@echo "Setting up pre-commit hooks..."
@@ -56,18 +56,48 @@ install-dev: install-deps
 # Code Quality
 format:
 	@echo "Formatting code with black..."
-	black src/ notebooks/ tests/ --line-length 88
+	black src/ api_service/ scripts/ tests/ --line-length 88
+	@echo "Sorting imports with isort..."
+	isort src/ api_service/ scripts/ tests/
 	@echo "Code formatting complete."
 
 lint:
 	@echo "Running linting with flake8..."
-	flake8 src/ tests/ --max-line-length=88 --extend-ignore=E203,W503
+	flake8 src/ api_service/ scripts/ tests/ --max-line-length=88 --extend-ignore=E203,W503
 	@echo "Linting complete."
+
+# CI-style checks (matches GitHub Actions)
+ci-lint:
+	@echo "Running CI-style linting checks..."
+	@echo "Checking code formatting..."
+	black --check --diff src/ api_service/ scripts/ tests/ --line-length 88
+	@echo "Checking import sorting..."
+	isort --check-only --diff src/ api_service/ scripts/ tests/
+	@echo "Running flake8 linting..."
+	flake8 src/ api_service/ scripts/ tests/ --count --select=E9,F63,F7,F82 --show-source --statistics
+	flake8 src/ api_service/ scripts/ tests/ --count --max-complexity=10 --max-line-length=88 --statistics --extend-ignore=E203,W503
 
 test:
 	@echo "Running test suite..."
 	pytest tests/ -v --cov=src --cov-report=term-missing --cov-report=html
 	@echo "Test suite complete."
+
+# Individual test categories
+test-unit:
+	@echo "Running unit tests..."
+	pytest tests/ -v --tb=short
+
+test-api:
+	@echo "Running API tests..."
+	cd api_service && pytest test_api.py -v --tb=short
+
+test-integration:
+	@echo "Running integration tests..."
+	cd api_service && pytest test_integration.py -v --tb=short
+
+# CI-style testing (matches GitHub Actions)
+ci-test: ci-lint test-unit test-api test-integration
+	@echo "CI/CD pipeline tests complete."
 
 # Cleanup
 clean:
@@ -154,8 +184,25 @@ notebook:
 	@echo "Starting Jupyter Lab..."
 	jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
-# CI/CD
-ci-test: lint test
+# Zero-Cost CI Commands
+simple-ci:
+	@echo "Running simple zero-cost CI..."
+	$(PYTHON) scripts/simple_ci.py
+
+zero-cost-ci:
+	@echo "Running zero-cost CI pipeline..."
+	$(PYTHON) scripts/zero_cost_ci.py
+
+fast-ci:
+	@echo "Running ultra-fast CI..."
+	$(PYTHON) scripts/zero_cost_ci.py --fast
+
+api-ci:
+	@echo "Running API-only CI..."
+	$(PYTHON) scripts/zero_cost_ci.py --api-only
+
+# Original CI commands (for comparison)
+ci-test: ci-lint test-unit test-api test-integration
 	@echo "CI/CD pipeline tests complete."
 
 # Production
